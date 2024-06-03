@@ -1,0 +1,83 @@
+@import url(./fonts/fonts.css);
+@font-face{
+    font-family: 'Golos_Text_bold';
+    src: url(./Golos-Text_Bold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Golos_Text_regular';
+    src: url(./Golos-Text_Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Golos_Text_demibold';
+    src: url(./Golos-Text_DemiBold.ttf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: 'Comfortaa-regular';
+    src: url(./Golos-Text_DemiBold.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Comfortaa-medium';
+    src: url(./Golos-Text_DemiBold.ttf);
+    font-weight: 500;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Monrope';
+    
+}
+body{
+    background-color: #eed9d9;
+     --bs-body-color--bs-body-color-rgb
+}
+   
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section a{
+    color: #801800;
+    padding: 20px;
+    font-family: 'Golos_Text_regular';
+    font-weight: 400;
+}
+.row{
+    margin-top: 50px;
+}
+.row .about-text h2{
+    font-family: 'Comfortaa-regular';
+    font-weight: 400;
+}
+.row .about-img img{
+    border-radius: 10px;
+}.row .about-text .btn-warning{
+    background-color: #b5ebf3;
+    font-family: 'Comfortaa-regular';
+    font-weight: 400;
+    border-radius: 15px;
+    border: #b5ebf3;
+    font-size: 10px;
+}
+.skills{
+    margin-top: 50px;
+}
+.card-boby{
+    background-color: #e1aff2;
+    border-radius: 6px;
+}
+.contact{
+    margin-bottom: 50px;
+}
